@@ -24,7 +24,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out code from GitHub
-                git branch: 'main', url: 'https://github.com/h1712/node-sample-project-1.git'
+                git branch: 'main', url: 'https://github.com/Swati448/sample-app.git'
             }
         }
 
